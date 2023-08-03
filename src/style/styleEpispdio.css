@@ -1,0 +1,81 @@
+.box-info-episodio {
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    padding: 10px;
+}
+
+.box-episodio {
+    text-align: left;
+    overflow: auto;
+    background: rgb(232, 232, 232);
+    z-index: 1200;
+    
+}
+
+.box-info-anime {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.box-portada {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #d4ff68, #ff33ad);
+}
+
+.box-portada img {
+    border-radius: 5px;
+}
+
+.box-genero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-genero p {
+    padding: 10px;
+    border: 1px solid #6868ff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.box-description  {
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg, #d4ff68, #ff33ad);
+    color: #242424;
+}
+
+.box-caps {
+    padding: 20px;
+}
+
+.box-caps ul {
+    list-style: none;
+}
+
+.box-caps a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-caps a:hover {
+    text-decoration: underline;
+}
+
+.caps-videos {
+    width: 80%;
+    height: 90vh;
+    height: 90dvh;
+}
+
+.box-caps {
+    width: 100%;
+}

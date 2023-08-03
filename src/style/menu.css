@@ -1,0 +1,30 @@
+.lista {
+    display: flex;
+    list-style: none;
+}
+
+.lista p, .lista li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+.marca {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.marca span {
+    color: #ff33ad;
+}
+
+.buscador {
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+}
